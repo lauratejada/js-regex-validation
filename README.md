@@ -23,6 +23,8 @@ A pattern can be compose also by brackets.
 - [0-9] --The group of all digits between 0 and 9
 - (a|b) --Search for 'a' or 'b'
 
+For more information about Regex [click here](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
+
 ## Examples of validation of data with regular expressions in JavaScript
 
  ```javascript
