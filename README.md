@@ -33,6 +33,19 @@ For more information about Regex [click here](https://www.w3schools.com/jsref/js
  pattern.test('Hello'); // true, search the letter 'e' in the string 'Hello' and returns a boolean
 ```
 
+```javascript
+let strNum = '1.2';
+
+function isFloat(strNum) { // validate string , if not returns null, validate float numbers 
+    let patternNum = /^\d+(\.\d+)?$/g; 
+    const auxNum = strNum.match(patternNum);    
+    console.log(`Is Float : ${auxNum}`);
+    return (auxNum !== null) ? true : false;
+} 
+
+console.log(isFloat(strNum)); // true
+```
+
 
 ## References
 - [JavaScript Regex Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
