@@ -46,6 +46,10 @@ function isFloat(strNum) { // validate string , if not returns null, validate fl
 console.log(isFloat(strNum)); // true
 ```
 
+To see more examples [click here](https://github.com/lauratejada/js-regex-validation/blob/main/regex.js)
+
+Online tool to create a regular expresion [click here](https://regex101.com/)
+
 
 ## References
 - [JavaScript Regex Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
